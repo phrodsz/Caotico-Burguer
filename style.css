@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 2000px;
+  background-color: #FAFAFA
+}
+.bg {
+  background-image: url("img/bg.png");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 800px; 
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logo {
+  max-width: 200px;
+}
+nav {
+  color: #fff;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: #FAFAFA;
+  font-size: 20px;
+  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
+}
+.link:hover {
+  color: #FF8C00;
+}
+.botao {
+  text-decoration: none;
+  color: #FAFAFA;
+  font-size: 20px;
+  background-color: #E63946;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
+}
+.botao:hover {
+  background-color: #FF8C00;
+}
+.botao2 {
+  text-decoration: none;
+  color: #FAFAFA;
+  font-size: 40px;
+  background-color: #E63946;
+  padding: 20px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
+}
+.botao2:hover {
+  background-color: #FF8C00;
+}
+.hero {
+  color: #fff;
+  width: 1200px;
+  margin: 0 auto;
+}
+.hero p {
+  font-size: 130px;
+  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+.sobre {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.coluna {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sobre h1 {
+  color: #FF8C00;
+  font-family: 'Anton', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+.sobre p {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  align-items: center;
+}
+.fundo {
+  background-color: #FF8C00;
+  margin-left: 100px;
+  width: 600px;
+}
