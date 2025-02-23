@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   background-color: #FAFAFA
@@ -98,7 +99,7 @@ nav ul li {
   color: #FF8C00;
   font-family: 'Anton', Arial, Helvetica, sans-serif;
   font-size: 50px;
-  margin-bottom: -20px;
+  margin-bottom: -100px;
 }
 .sobre p {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -199,7 +200,7 @@ nav ul li {
 }
 @media (max-width: 570px) {
   .bg {
-    height: 550px;
+    height: 700px;
   }
   .logo {
     width: 150px;
@@ -249,21 +250,24 @@ nav ul li {
     font-size: 65px;
   }
   .botao2 {
-    font-size: 15px;
+    font-size: 20px;
     padding: 15px 20px;
+  }
+  .sobre {
+    width: 90%;
   }
   .sobre h1 {
     font-size: 25px;
     margin-bottom: 10px
   }
   .sobre p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .coluna {
     grid-template-columns: 1fr;
   }
   .fundo {
-    width: 70%;
+    width: 80%;
     justify-self: center;
   }
 }
