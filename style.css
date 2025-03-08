@@ -230,9 +230,13 @@ nav ul li {
   }
   .sobre h1 {
     font-size: 40px;
+    margin-bottom: -30px;
   }
   .sobre p {
     font-size: 20px;
+  }
+  .bg-card {
+    background-image: url(img/bg-2.png);
   }
 }
 @media (min-width: 1050px) and (max-width:1200px) {
@@ -256,9 +260,44 @@ nav ul li {
   }
   .sobre h1 {
     font-size: 35px;
+    margin-bottom: -20px;
   }
   .sobre p {
     font-size: 18px;
+  }
+  .bg-card {
+    background-image: url(img/bg-2.png);
+  }
+  .cardapio {
+    gap: 20px;
+  }
+  .simples {
+      width: 100%;
+  }
+  .especial {
+      width: 100%;
+  }
+  .combo {
+    width: 100%;
+  }
+  .combo ul li {
+    font-size: 14px;
+  }
+  .card h1 {
+    font-size: 100px;
+  }
+  .card h2 {
+    font-size: 60px;
+  }
+  .categ {
+    font-size: 30px;
+  }
+  .item {
+    font-size: 20px;
+  }
+  .igrid {
+    font-size: 14px;
+    width: 70%;
   }
 }
 @media (min-width: 570px) and (max-width: 1050px) {
@@ -293,6 +332,60 @@ nav ul li {
   .fundo {
     width: 60%;
     justify-self: center;
+  }
+  .bg-card {
+    background-image: url(img/bg-2.png);
+  }
+  .card {
+    width: 95%;
+  }
+  .cardapio {
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    text-align: start;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .categ {
+    font-size: 30px;
+    justify-self: start;
+    margin-bottom: 0px;
+  }
+  .simples {
+      width: 100%;
+  }
+  .especial {
+      width: 100%;
+  }
+  .combo {
+    grid-column: 1/-1;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  .sem {
+    grid-column: 1/-1;
+  }
+  .combo ul li {
+    font-size: 12px;
+    width: 350px;
+  }
+  .card h1 {
+    font-size: 100px;
+  }
+  .card h2 {
+    font-size: 60px;
+  }
+  .categ {
+    font-size: 30px;
+  }
+  .item {
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .igrid {
+    font-size: 14px;
+    width: 70%;
   }
 }
 @media (max-width: 570px) {
@@ -388,8 +481,8 @@ nav ul li {
     margin-bottom: 0px;
   }
   .item {
-    font-weight: 600;
     font-size: 15px;
+    font-weight: bolder;
   }
   .igrid {
     font-size: 12px;
