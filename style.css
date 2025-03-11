@@ -1,92 +1,5 @@
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-}
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-  background-color: #FAFAFA
-}
-.bg {
-  background-image: url("img/bg.png");
-  background-color: #222;
-  height: 900px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat;
-}
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 30px;
-}
-.logo {
-  max-width: 200px;
-}
-nav {
-  color: #fff;
-}
-nav ul {
-  display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-nav ul li {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-  color: #FAFAFA;
-  font-size: 25px;
-  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
-}
-.link:hover {
-  color: #FF8C00;
-}
-.botao {
-  text-decoration: none;
-  color: #FAFAFA;
-  font-size: 25px;
-  background-color: #E63946;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
-}
-.botao:hover {
-  background-color: #FF8C00;
-}
-.botao2 {
-  text-decoration: none;
-  color: #FAFAFA;
-  font-size: 40px;
-  background-color: #E63946;
-  padding: 20px 40px;
-  border-radius: 5px;
-  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
-}
-.botao2:hover {
-  background-color: #FF8C00;
-}
-.hero {
-  color: #fff;
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
-.hero p {
-  font-size: 150px;
-  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
-  margin-bottom: 50px;
-}
+@import './global.css';
+@import './header.css';
 .sobre {
   width: 80%;
   margin: 0px auto;
@@ -210,24 +123,6 @@ nav ul li {
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
-  .logo {
-    width: 150px;
-  }
-  .link {
-    font-size: 20px;
-  }
-  .botao {
-    font-size: 20px;
-  }
-  .hero p {
-    font-size: 130px;
-  }
-  .botao2 {
-    font-size: 30px;
-  }
-  .bg {
-    height: 700px;
-  }
   .sobre h1 {
     font-size: 40px;
     margin-bottom: -30px;
@@ -240,24 +135,6 @@ nav ul li {
   }
 }
 @media (min-width: 1050px) and (max-width:1200px) {
-  .logo {
-    width: 120px;
-  }
-  .link {
-    font-size: 18px;
-  }
-  .botao {
-    font-size: 18px;
-  }
-  .hero p {
-    font-size: 120px;
-  }
-  .botao2 {
-    font-size: 25px;
-  }
-  .bg {
-    height: 650px;
-  }
   .sobre h1 {
     font-size: 35px;
     margin-bottom: -20px;
@@ -301,24 +178,6 @@ nav ul li {
   }
 }
 @media (min-width: 570px) and (max-width: 1050px) {
-  .logo {
-    width: 100px;
-  }
-   .link {
-    font-size: 15px;
-  }
-  .botao {
-    display: none;
-  }
-  .hero p {
-    font-size: 80px;
-  }
-   .botao2 {
-    font-size: 18px;
-  }
-  .bg {
-    height: 600px;
-  }
   .sobre h1 {
     font-size: 30px;
     margin-bottom: 0px;
@@ -389,60 +248,6 @@ nav ul li {
   }
 }
 @media (max-width: 570px) {
-  .bg {
-    height: 700px;
-  }
-  .logo {
-    width: 150px;
-  }
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-  }
-  .logo {
-    background-color: #FF8C00;
-    align-self: center;
-    align-items: center;
-  }
-  .link {
-    background-color: #FF8C00;
-    padding: 10px 15px;
-    border-radius: 5px;
-    display: block;
-    width: 100%; /* Garante que ocupe toda a largura */
-    text-align: center;
-    font-size: 15px;
-  }
-  nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Mantém os itens lado a lado */
-    gap: 30px 50px;
-    margin-top: 30px;
-    padding: 10px;
-    border-radius: 5px;
-    justify-content: center;
-  }
-  .link:hover {
-    color: #fff;
-    background-color: #E63946;
-  }
-  .botao {
-    display: none;
-  }
-  .hero {
-    width: 100%;
-    margin-top: -70px;
-  }
-  .hero p {
-    font-size: 65px;
-  }
-  .botao2 {
-    font-size: 20px;
-    padding: 15px 20px;
-  }
   .sobre {
     width: 90%;
   }
