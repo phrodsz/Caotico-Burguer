@@ -1,34 +1,7 @@
 @import './global.css';
 @import './header.css';
-.sobre {
-  width: 80%;
-  margin: 0px auto;
-  padding: 50px 0;
-}
-.coluna {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  justify-items: center;
-  align-items: center; 
-}
-.sobre h1 {
-  color: #FF8C00;
-  font-family: 'Anton', Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  margin-bottom: -100px;
-}
-.sobre p {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  font-weight: 500;
-  text-align: left;
-}
-.fundo {
-  width: 100%;
-  height: auto;
-  justify-self: end;
-}
+@import './sobre.css';
+
 .bg-card {
   background-image: url(img/Design\ sem\ nome.png);
   background-size: cover; 
@@ -123,25 +96,11 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
-  .sobre h1 {
-    font-size: 40px;
-    margin-bottom: -30px;
-  }
-  .sobre p {
-    font-size: 20px;
-  }
   .bg-card {
     background-image: url(img/bg-2.png);
   }
 }
 @media (min-width: 1050px) and (max-width:1200px) {
-  .sobre h1 {
-    font-size: 35px;
-    margin-bottom: -20px;
-  }
-  .sobre p {
-    font-size: 18px;
-  }
   .bg-card {
     background-image: url(img/bg-2.png);
   }
@@ -178,13 +137,6 @@
   }
 }
 @media (min-width: 570px) and (max-width: 1050px) {
-  .sobre h1 {
-    font-size: 30px;
-    margin-bottom: 0px;
-  }
-  .sobre p {
-    font-size: 15px;
-  }
   .coluna {
     grid-template-columns: 1fr;
   }
@@ -248,23 +200,6 @@
   }
 }
 @media (max-width: 570px) {
-  .sobre {
-    width: 90%;
-  }
-  .sobre h1 {
-    font-size: 25px;
-    margin-bottom: 10px
-  }
-  .sobre p {
-    font-size: 14px;
-  }
-  .coluna {
-    grid-template-columns: 1fr;
-  }
-  .fundo {
-    width: 80%;
-    justify-self: center;
-  }
   .card { 
     width: 90%;
   }
